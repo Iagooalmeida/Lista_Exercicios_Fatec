@@ -1,2 +1,2 @@
-# Lista_Exercicios_python
-Exercícios em Python Feito na faculdade - FATEC ITAPIRA
+# Lista Exercicios feito em aula
+Fatec Itapira: Fatec Ogari de Castro Pacheco
