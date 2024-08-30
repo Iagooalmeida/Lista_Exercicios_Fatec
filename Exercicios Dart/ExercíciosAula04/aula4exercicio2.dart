@@ -8,10 +8,13 @@ void main(){
 
 int maiorValor(List<int> lista){
   int maior = lista[0];
-  for(int i = 0; i < lista.length; i++){
-    if(lista[i] > maior){
-      maior = lista[i];
+  for (var numero in lista){
+    if(numero > maior){
+      maior = numero;
     }
+    
   }
   return maior;
+
+  // return lista.reduce((value, element) => value > element ? value : element);
 }
