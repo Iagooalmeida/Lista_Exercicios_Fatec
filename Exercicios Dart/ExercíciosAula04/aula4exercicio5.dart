@@ -9,7 +9,10 @@ void main(){
   stdout.write("Digite um texto: ");
 
   String? texto = stdin.readLineSync();
-  print(contaPalavras(texto!));
+  
+  texto = texto?.replaceAll(RegExp(r'[,.]'), '') ?? '';
+  texto = texto.toLowerCase();
+  print(contaPalavras(texto));
 }
 
 int contaPalavras(String texto){

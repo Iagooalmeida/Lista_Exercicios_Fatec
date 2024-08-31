@@ -1,0 +1,28 @@
+[
+    {
+      "nome": "Notebook XYZ",
+      "preço": 2999.99,
+      "categoria": "Eletrônicos"
+    },
+    {
+      "nome": "Cadeira Ergonomica",
+      "preço": 699.00,
+      "categoria": "Móveis"
+    },
+    {
+      "nome": "Smartphone ABC",
+      "preço": 1499.50,
+      "categoria": "Eletrônicos"
+    },
+    {
+      "nome": "Tênis de Corrida",
+      "preço": 299.90,
+      "categoria": "Calçados"
+    },
+    {
+      "nome": "Smartwatch DEF",
+      "preço": 499.00,
+      "categoria": "Eletrônicos"
+    }
+  ]
+  

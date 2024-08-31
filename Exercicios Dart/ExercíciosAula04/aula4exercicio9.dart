@@ -14,7 +14,7 @@ Map<String, double> mediaNotas(Map<String, List<double>> notasAlunos){
   Map<String, double> media = {};
 
   for(var aluno in notasAlunos.keys){
-    double soma = 0;
+    double soma = 0.0;
     for(var nota in notasAlunos[aluno]!){
       soma += nota;
     }
