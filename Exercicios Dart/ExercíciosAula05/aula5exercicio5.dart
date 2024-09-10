@@ -24,6 +24,7 @@ class ContaBancaria {
       throw SaldoInsuficienteException();
     }
     saldo -= valor;
+    print('Saque efetuado com sucesso');
   }
 }
 
