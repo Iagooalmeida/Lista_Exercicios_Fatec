@@ -10,16 +10,20 @@ class Retangulo {
 
   double get area => largura * altura;
 
-  set redimensionar(double novaLargura) {
+  // double get area {
+  //   return largura * altura;
+  // }
+
+  void redimensionar(double novaLargura, double novaAltura) {
     largura = novaLargura;
-    altura = novaLargura;
+    altura = novaAltura;
   }
 }
 
 void main() {
   Retangulo retangulo = Retangulo(5, 10);
-  print('Área: ${retangulo.area}');
+  print('Área inicial: ${retangulo.area}');
 
-  retangulo.redimensionar = 7;
-  print('Área: ${retangulo.area}');
+  retangulo.redimensionar(7, 7);
+  print('Área após redimensionar: ${retangulo.area}');
 }
