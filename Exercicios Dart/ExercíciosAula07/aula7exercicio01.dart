@@ -189,7 +189,7 @@ void main() {
   carro.calcularIPVA();
   carro.calcularDPVAT();
 
-  Moto moto = Moto(anoFabricacao: 2021, anoModelo: 2022, cor: 'Vermelho', valor: 20000, combustivel: Combustivel.gasolina);
+  Moto moto = Moto(anoFabricacao: 2021, anoModelo: 2022, cor: 'Vermelho', valor: 20000, combustivel: Combustivel.diesel);
   moto.acelerar();
   moto.frear();
   moto.empinar();
@@ -205,5 +205,3 @@ void main() {
   aviao.vender('José');
   aviao.calcularTaxaANAC();
 }
-
-
