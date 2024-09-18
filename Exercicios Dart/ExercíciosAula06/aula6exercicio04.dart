@@ -14,9 +14,9 @@ class Retangulo {
   //   return largura * altura;
   // }
 
-  void redimensionar(double novaLargura, double novaAltura) {
-    largura = novaLargura;
-    altura = novaAltura;
+  set redimensionar(Map<String, double> dimensoes) {
+    largura = dimensoes['largura']!;
+    altura = dimensoes['altura']!;
   }
 }
 
@@ -24,6 +24,6 @@ void main() {
   Retangulo retangulo = Retangulo(5, 10);
   print('Área inicial: ${retangulo.area}');
 
-  retangulo.redimensionar(7, 7);
+  retangulo.redimensionar = {'largura': 7, 'altura': 7};
   print('Área após redimensionar: ${retangulo.area}');
 }
