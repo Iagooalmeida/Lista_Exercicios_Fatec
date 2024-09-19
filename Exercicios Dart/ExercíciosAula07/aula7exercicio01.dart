@@ -117,7 +117,7 @@ class Moto extends Veiculo implements Vendivel, ImpostosVeiculosTerrestres {
   }
 
   void empinar() {
-    print('Moto empinando...');
+    print('Dando um grau, se a policia ver já era!...');
   }
 
   @override
