@@ -8,9 +8,9 @@ void main(){
 
 List<int> listaPares(List<int> lista){
   List<int> pares = [];
-  for(int i = 0; i < lista.length; i++){
-    if(lista[i] % 2 == 0){
-      pares.add(lista[i]);
+  for (var numero in lista){
+    if(numero % 2 == 0){
+      pares.add(numero);
     }
   }
   return pares;
